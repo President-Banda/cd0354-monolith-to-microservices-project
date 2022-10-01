@@ -21,7 +21,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: docker-compose -f docker-compose-build.yml build --paralell
+    - run: docker-compose -f docker-compose-build.yaml build --parallel
     - run: docker tag udagram-api-feed presidentbanda/udagram-api-feed:v1
     - run: docker tag udagram-api-user presidentbanda/udagram-api-user:v1
     - run: docker tag udagram-frontend:local presidentbanda/udagram-frontend:v1
