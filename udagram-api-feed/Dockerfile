@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:14
 # Create app directory
 WORKDIR /usr/src/app
 # Install app dependencies
@@ -8,4 +8,4 @@ RUN npm ci
 # Bundle app source
 COPY . .
 EXPOSE 8080
-CMD [ "npm", "run", "prod" ]
+CMD [ "npm", "run", "dev" ]
