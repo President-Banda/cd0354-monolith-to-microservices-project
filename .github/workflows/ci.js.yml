@@ -25,8 +25,9 @@ jobs:
     - run: docker tag udagram-api-feed presidentbanda/udagram-api-feed:v1
     - run: docker tag udagram-api-user presidentbanda/udagram-api-user:v1
     - run: docker tag udagram-frontend:local presidentbanda/udagram-frontend:v1
-    - run: docker tag udagram-reverseproxy presidentbanda/udagram-reverseproxy:v1
+    - run: docker tag reverseproxy presidentbanda/reverseproxy:v1
+    - run: echo "${{secrets.DOCKER_PASSWORD}}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
     - run: docker push presidentbanda/udagram-api-feed:v1
     - run: docker push presidentbanda/udagram-api-user:v1
     - run: docker push presidentbanda/udagram-frontend:v1
-    - run: docker push presidentbanda/udagram-reverseproxy:v1
+    - run: docker push presidentbanda/reverseproxy:v1
