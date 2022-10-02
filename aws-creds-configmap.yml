@@ -5,7 +5,7 @@ metadata:
 data:
   credentials: 
   [udacity]
-  aws_access_key_id: ASIAVAOMWXXJJ4NYEDE4
-  aws_secret_access_key: lb/ShxAhs4rys/rJ3K+NLAIEw5HskWeNq4C5XF+8
-  aws_session_token: FwoGZXIvYXdzENj//////////wEaDF2V9eAnq/fLwSbXSSLVAXTfq0ZGTM+La6MbwVVYjIsaaNN3aM98CweSL1cfF14wel5tUBNB1wmyJmt3/gHo2NgSaIXe1Mb0bM/T2qu6Nnoyh3TSFeyvfmDy4PieKZJsOFyvJeWDyRNEkyhgtO5jD1SqBJcMYgfog3Tha8OaQ8MkNaMQbKNLisQa8P/DyytbEJvdAxh2j/49UkAeCz92fu2J2U6ZUs0Ks/Sx1544x1NOUMuAB1IIXcIkZly0IbWRdRSStaKpQdtUcmz9ppVF8cuVRQ0BykJxzGjQ3IoXrOESERfNSiijguOZBjItSB+bvCrW6HJhHMwbZ0bd3ULP5Zfdad48QrKJyusn1gujsgE7/7n31py2egxB
+  aws_access_key_id: ASIAZCI2KMF4FGUMVDHH
+  aws_secret_access_key: mlRAVlnyaLJSS+mzN6frllSif1cusMbrhFhuikgs
+  aws_session_token: FwoGZXIvYXdzENv//////////wEaDGIdltrCp5Yk+TD5/iLVAeomkVPxKFDf4Oc3seG6Qp6fMjAQMWf2RNkQuJkZSUWU6rC/e9MNNJaciDkXc7ImbnuWQRpbNW3+4mw0VvIY+bSBb7tA3FZzYIggjamvJTpyzwPB5cdyR9+x0IcYPHmi4IH1zLCJui+rWZfnPNmDS4ZUSB+NMD5sV0uWjDWRSAH6l+IHJxLFc9fLks+VAheurwjsFiyoDpzxKx3jyHMNOZt4iqbLmj5Qb3lnSEfXoIP839zEQsNJM11n6NCbiazQwYjXy/QK/NEBNEzjjuq0LY8OKYXmaii54uOZBjItQMyRggEv7cluaEnI2jhRjTGvRMt7uDApPADOFNmvtvlteBqb//hxAbJUcQ8/
   region: us-east-1

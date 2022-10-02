@@ -9,3 +9,17 @@ spec:
     - protocol: TCP
       port: 8080
       targetPort: 8080
+
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: backend-feed
+spec:
+  scaleTargetRef:
+    apiVersion: apps/backend-feed
+    kind: Deployment
+    name: backend-feed
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 50
