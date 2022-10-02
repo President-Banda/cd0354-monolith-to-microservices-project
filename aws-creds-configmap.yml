@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: president-aws
+data:
+  credentials: 
+  [udacity]
+  aws_access_key_id: ASIAVAOMWXXJJ4NYEDE4
+  aws_secret_access_key: lb/ShxAhs4rys/rJ3K+NLAIEw5HskWeNq4C5XF+8
+  aws_session_token: FwoGZXIvYXdzENj//////////wEaDF2V9eAnq/fLwSbXSSLVAXTfq0ZGTM+La6MbwVVYjIsaaNN3aM98CweSL1cfF14wel5tUBNB1wmyJmt3/gHo2NgSaIXe1Mb0bM/T2qu6Nnoyh3TSFeyvfmDy4PieKZJsOFyvJeWDyRNEkyhgtO5jD1SqBJcMYgfog3Tha8OaQ8MkNaMQbKNLisQa8P/DyytbEJvdAxh2j/49UkAeCz92fu2J2U6ZUs0Ks/Sx1544x1NOUMuAB1IIXcIkZly0IbWRdRSStaKpQdtUcmz9ppVF8cuVRQ0BykJxzGjQ3IoXrOESERfNSiijguOZBjItSB+bvCrW6HJhHMwbZ0bd3ULP5Zfdad48QrKJyusn1gujsgE7/7n31py2egxB
+  region: us-east-1
